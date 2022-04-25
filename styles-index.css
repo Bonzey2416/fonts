@@ -1,0 +1,106 @@
+html {
+  font-family: Montserrat, Helvetica Neue, sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.header {
+  width: calc(100%-16px);
+  background: white;
+  position: fixed;
+  top: 0;
+  padding: 16px 8px 16px 8px;
+  border-bottom: 1px solid gray;
+}
+
+.body-text {
+  width: 100%;
+  max-width: 1024px;
+  text-align: left;
+  padding: 64px 0 0 0;
+}
+
+.font-card {
+  width: calc(50%-48px);
+  padding: 16px;
+  margin: 8px;
+  border: 1px solid gray;
+  border-radius: 16px;
+  float: left;
+}
+
+.font-title {
+  size: 1.4em;
+}
+
+.font-style-no {
+  text-align: right;
+}
+
+textarea.font-textarea {
+  font-size: 2.4em;
+  background: white;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0);
+  border: 0px none;
+  margin: 6px 0 6px 0;
+  padding: 0;
+  width: 100%;
+}
+
+.font-button {
+  text-align: right;
+}
+
+.button {
+  border-radius: 1000px;
+  background: #0080ff;
+  padding: 4px;
+  font-weight: 500;
+  color: white;
+}
+
+a.button-link {
+  transition: 
+}
+a.button-link:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.button-link:visited {
+  text-decoration: none;
+  color: #ffe;
+}
+
+a.button-link:hover {
+  text-decoration: none;
+  color: #eff;
+}
+
+a.button-link:active {
+  text-decoration: none;
+  color: #efe;
+}
+
+.footer {
+  background: #eee;
+  width: 100%;
+  padding: 16px 0 16px 0;
+}
+
+.footer-text {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.alert {
+  padding: 12px;
+  position: fixed;
+  width: 320px;
+  bottom: 32px;
+  right: 32px;
+  box-shadow: 0 2px 8px 2px rgba(0,0,0,0.15);
+  background: white;
+}
