@@ -6,6 +6,10 @@ h1 {
   font-weight: 300;
 }
 
+table {
+  width: 100%;
+}
+
 .header {
   width: calc(100%-16px);
   background: white;
