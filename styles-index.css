@@ -24,7 +24,6 @@ h1 {
 }
 
 .font-card {
-  width: calc(50%-48px);
   padding: 16px;
   margin: 8px;
   border: 1px solid gray;
@@ -117,10 +116,6 @@ a.button-link:active {
 }
 
 @media only screen and (max-width: 600px) {
-  .font-card {
-    width: calc(100%-48px);
-  }
-  
   .alert {
    width: calc(100%-24px);
    bottom: 0;
