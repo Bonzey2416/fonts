@@ -1,0 +1,132 @@
+html, input, textarea{
+  font-family: ff-kievit-web-pro;
+}
+
+html {
+  background: #ff3399;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 7em;
+  font-weight: 400;
+}
+
+.summary {
+  font-align: center;
+}
+
+.header {
+  width: calc(100%-16px);
+  background: white;
+  padding: 16px 8px 16px 8px;
+  border-bottom: 1px solid gray;
+  z-index: 4096;
+  color: black;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.extra-light {
+  font-weight: 200;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.book {
+  font-weight: 500;
+}
+
+.medium {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.proportional-lining {
+  font-variant-numeric: proportional-nums lining-nums;
+}
+
+.tabular-lining {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.proportional-oldstyle {
+  font-variant-numeric: proportional-nums oldstyle-nums;
+}
+
+.tabular-oldstyle {
+  font-variant-numeric: tabular-nums oldstyle-nums;
+}
+
+.xx-small {
+  font-size: 0.8em;
+}
+
+.x-small {
+  font-size: 1em;
+}
+
+.small {
+  font-size: 1.3em;
+}
+
+.medium {
+  font-size: 1.7em;
+}
+
+.large {
+  font-size: 2.3em;
+}
+
+.x-large {
+  font-size: 3.2em;
+}
+
+.xx-large {
+  font-size: 4.5em;
+}
+
+.details {
+  font-size: 0.6em;
+  color: rgba(255,255,255,0.5)
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.textarea {
+  background: rgba(0,0,0,0);
+  border: none;
+}
+
+.footer {
+  background: #eee;
+  width: 100%;
+  padding: 16px 0 16px 0;
+  border-top: 1px solid gray;
+  color: black;
+  text-align: center;
+}
